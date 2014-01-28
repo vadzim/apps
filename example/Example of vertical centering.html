@@ -1,0 +1,46 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Example of vertical centering</title>
+
+<style type="text/css">
+body {
+	background: none repeat scroll 0% 0% rgb(51, 102, 51);
+	color: rgb(255, 255, 0);
+	font-size: large;
+	text-shadow: 0.2em 0.2em 0.2em black;
+}
+div.container {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: table;
+}
+p {
+	display: table-cell;
+	vertical-align: middle;
+}
+img.displayed {
+	display: block;
+	margin: 1em auto;
+}
+p {
+	text-align: center;
+}
+body, html {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+</style>
+
+</head><body>
+
+<div class="container">
+<p>This is vertically &amp; horizontally centered. <img alt="[image of a sheep]" class="displayed" src="woolly-lc.png"> See <cite>“centering things.”</cite>
+</p></div>
+
+
+<div id="dc_vk_code" style="display:none"></div></body></html>
